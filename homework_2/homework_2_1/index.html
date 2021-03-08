@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список покупок</title>
+    <style>
+        body {
+            background-color: #a8d1f7;
+            /*Колір фону сторінки*/
+            color: rgb(25, 4, 65);
+            /*Колір тексту*/
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index_en.html">en</a>
+    <a href="/index.html">Home</a>
+
+    <!--посилання на англомовну сторінку-->
+
+
+    <h1 style="text-align: center">Список покупок</h1>
+    <!--заголовок-->
+
+
+    <!--шапка сайту (Список покупок)-->
+
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <!--форми-->
+
+        <p><i><b>Овочі</b></i></p>
+
+        <hr>
+        <ol>
+            <li><label><input type="checkbox" name="shopping[]" value="Помідори">Помідори</label></li>
+            <!--перемикач галочки і т.п.-->
+            <li><label><input type="checkbox" name="shopping[]" value="Огірки">Огірки</label></li>
+            <li><label><input type="checkbox" name="shopping[]" value="Капуста">Капуста</label></li>
+            <li><label><input type="checkbox" name="shopping[]" value="Салат">Салат</label></li>
+        </ol>
+
+        <p><i><b>М'ясні продукти</b></i></p>
+        <hr>
+        <ol>
+            <li><label><input type="checkbox" name="shopping[]" value="Куряча грудка">Куряча грудка</label></li>
+            <li><label><input type="checkbox" name="shopping[]" value="Ошийок">Ошийок</label></li>
+        </ol>
+
+        <p><i><b>Крупи</b></i></p>
+        <hr>
+        <ol>
+            <li><label><input type="checkbox" name="shopping[]" value="Гречка">Гречка</label></li>
+            <li><label><input type="checkbox" name="shopping[]" value="Рис">Рис</label></li>
+        </ol>
+    </form>
+</body>
+
+</html>

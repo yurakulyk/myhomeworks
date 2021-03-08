@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>реєстраційна форма замовлення товару</title>
+</head>
+
+<body>
+    <a href="/index.html">Home</a><br>
+    Замовлення №1923
+    <h1>Реєстраційна форма замовлення товару</h1>
+    <form action="#" method="POST" enctype="multipart/form-data" id="my_form"
+        onsubmit="alert(decodeURI(new URLSearchParams(Array.from(new FormData(document.getElementById('my_form')))).toString()));return false;">
+
+        <fieldset>
+            <legend>Контактні дані</legend>
+            <label for="name">Ваше ім'я</label> <br>
+            <input type="text" name="registration_login" id="first_name"><br>
+            <label for="name">Ваше прізвище</label> <br>
+            <input type="text" name="registration_login" id="name">
+            <br>
+            <label for="name"> Ваш E-mail</label> <br>
+            <input type="email" placeholder="ert@gmail.com"><br>
+            <label for="tel">Телефон</label> <br>
+            <input type="text" name="registration_login" id="tel">
+        </fieldset>
+        <fieldset>
+            <legend>Доставка</legend>
+            <label for="name">Вид доставки</label>
+            <select name="profi" id="depend">
+                <option value="home">До дому</option>
+                <option value="building">В будівлю магазину</option>
+                <option value="posta">Відділення пошти</option>
+                <option hidden disabled selected>Ваш вибір</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend> Чи плануєте ви в подальшому замовляти цей товар</legend>
+            <input type="radio" name="maybe" value="yes">Так
+            <input type="radio" name="maybe" value="no">ні
+        </fieldset>
+        <fieldset>
+            <legend>Ваша оцінка магазину</legend>
+            <input type="checkbox" name="like" value="good">5 <br>
+            <input type="checkbox" name="like" value="good">4 <br>
+            <input type="checkbox" name="like" value="good">3 <br>
+            <input type="checkbox" name="like" value="good">2 <br>
+            <input type="checkbox" name="like" value="good">1 <br>
+            <p><input type="submit" value="відправити"></p>
+        </fieldset>
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>

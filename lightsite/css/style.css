@@ -1,0 +1,62 @@
+*{
+    padding: 0; /* спочатку обнуляємо внутрішні отступи щоб не заважали*/
+    margin: 0; /* спочатку обнуляємо зовнішні отступи щоб не заважали*/
+    box-sizing: border-box;
+
+}
+body {  /*встановлюються значення для тега "body"  для всієї сторінки*/
+    color: #232323;/* колір тексту за замовчуванням*/
+    background-color: #fff;/*колір фону*/
+    font-family: 'Times New Roman', Times, serif; /*вид шрифту*/
+    font-size: 14px; /*розмір шрифту*/
+}
+
+.container {/*зміни для всіх "div" класу "cotainer"*/
+    width: 90%;/*контейнер змінюється по ширині контейнер не прилипатиме по краям, а становитиме по 5% ві загальної ширини екрану*/ 
+    max-width: 782px;/*обмеження контейнера (щоб не розтягувався більше 1200px*/
+    margin: 0 auto; /*виравнювання контейнера і оцентровка (в п н л)*/
+    /*border: 2px solid #f00; рамка контейнера*/
+    padding: 2px; /* iвисота рамкаки нтейнера*/
+}
+header {/*властивості напису  My simple website*/
+    background-color: #a52a2a;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;/*отступ зверху*/
+    padding: 3px;
+}
+main {
+    padding: 28px 0px;
+}
+
+.logo {
+    text-align: center;
+}
+.word {
+    padding: 5px 15px 0;
+    font-size: 20px;
+}
+.cars_img {
+    list-style: none ; /*удаляє крапки (маркування) в списку*/
+    margin: 30px 0;
+    text-align: center;
+}
+
+.cars_img li {/*знайти елементи "li"*/
+    display: inline; /* робимо лінійний список замість блочного*/
+    
+}
+
+.cars_img li img {
+    border:3px dashed #000;  /* пунктирна рамка на картинках*/
+
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+    font-size: 20px;
+}
+
+

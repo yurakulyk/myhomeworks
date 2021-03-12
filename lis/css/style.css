@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+ul, ol {
+    list-style: none; /*без маркування точок*/
+}
+.container {
+    width: 90%;
+    max-width: 1010px;
+    margin: 0 auto;
+    
+   
+
+}
+
+.header_botton {
+    background-color: #000;
+    
+}
+
+.les {
+    background: url('../images/banner.jpg') right top;
+    height: 128px;
+    
+    
+
+}
+.les_link {
+    font-size: 35px; color: #fff;
+    padding: 42px 0 10px 5px;
+    font-weight: bold;  /*жирний шрифт*/
+}
+
+.header_top{
+    background: -moz-linear-gradient(59deg, #8bae0c 0%, #aad90f 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #8bae0c), color-stop(100%, #aad90f)); /* safari4+,chrome */
+background: -webkit-linear-gradient(59deg, #8bae0c 0%, #aad90f 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(59deg, #8bae0c 0%, #aad90f 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(59deg, #8bae0c 0%, #aad90f 100%); /* ie10+ */
+background: linear-gradient(31deg, #8bae0c 0%, #aad90f 100%); /* w3c */
+}
+
+#main_menu{
+    border-left: 1px solid #b9c29d;/*розділення менюшки лінією*/
+    
+
+}
+
+#main_menu li{
+    display: inline-block; /*менюшка стає в лінію*/
+    border-right: 1px solid #b9c29d;/*розділення менюшки лінією*/
+    margin: 0 -2px; /*усуває пробіл між блоками меню*/
+}
+
+#main_menu li a{
+    display: inline-block; /*дозволяє строчному задати різні отступи*/
+        height: 29px;
+        line-height: 29px; /*вирівнювання тексту по центру блока (розмір ставити такий самий як і висоту*/
+        color: #fff;
+        text-decoration: none;/*убрати підкреслювання*/
+        padding: 0 25px; /*відстань від риски до тексту*/
+       
+        /* text-transform: uppercase; всі бувкви заглавні*/
+
+
+}
+#main_menu li a:hover{
+    background-color: #8bae0c; /*зміна фону менюшки коли на нього наводиш мишку*/
+}
+
+.text_link  {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold; 
+    padding: 20px 0 15px 10px ;
+
+    
+    
+
+}
+
+.text_link_l  h2{
+    padding: 8px 0 15px 15px;
+   
+}
+.text_link_l  li {
+    list-style-type: circle;
+    padding: 5px 0 5px 40px;
+    list-style-position:inside; /*маркери збирає до кучі щоб не вилазили за границю*/
+}
+
+p {
+    padding: 15px 0 5px 35px;
+
+}
+span {
+    color: #8bae0c;
+    text-decoration: none;
+
+}
+.text_end {
+    background-color: #8bae0c;
+    padding: 5px;
+    color: #fff;
+    text-align: right;
+}
+.text_end span {
+    color: #0cae4a;
+
+}
+
+
+

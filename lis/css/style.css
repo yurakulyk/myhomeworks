@@ -89,6 +89,11 @@ background: linear-gradient(31deg, #8bae0c 0%, #aad90f 100%); /* w3c */
 
 }
 
+
+.text-color {
+    background-color: #fff;
+}
+
 .text_link_l  h2{
     padding: 8px 0 15px 15px;
    

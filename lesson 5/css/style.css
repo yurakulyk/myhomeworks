@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1c1c;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 24px; /*міжстрочний інтервал*/
+     
+}
+img {
+    vertical-align: middle; /*допомагає ставити іконки по центру*/
+}
+.container {
+    max-width: 1171px;
+    width: 90%;
+    margin: 0 auto;
+}
+#features {
+    padding: 108px 0 100px;
+}
+#features_list {
+    list-style: none;
+}
+#features_list li {  /*картинки меню*/
+    display: inline-block;
+    width: 33.3333%;
+    margin: 0 -2px;   /*якщо вискакує картинка*/
+    padding: 0 20px;
+    text-align: center;
+}
+.icon_wrap {
+    width: 80px;
+    height: 80px;
+    text-align: center; /*іконка в середині по центпу*/
+    margin: 0 auto;
+    background-color: #ffae00;
+    border-radius: 20px 0 20px 0;
+    line-height: 80px; /*виставити іконку в серединиі по вертикалі*/
+    margin-bottom: 43px; /*відступ від іконки до заголовка*/
+    
+}
+.icon_wrap img{
+    vertical-align: middle;
+}
+#features_list li h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 30px; /*відступ від заголовка*/
+
+}
+.ghost {
+    text-align: center;
+    margin-bottom: 40px;
+    
+    
+}
+
+
+.ghost  li  {
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    line-height: 50px;
+
+}
+a {
+    padding: 14px;
+}
+.ghost h3 {
+    color: #fff;
+    
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 45px 0 19px;
+  
+    
+
+    
+    
+     
+}
+
+.ghost p {
+    font-size: 15px;
+    padding: 65px;
+    margin: 0;
+   
+}
+.ghost p span {
+    color:#00c7fc;
+}
+span {
+    margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	
+}
+.tux {
+    border-bottom: 1px solid ;
+    width: 230px;
+    margin: auto; /*центр горизонтальної лінії*/
+    padding: 0 0 0 0;
+    
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

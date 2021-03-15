@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+   background-color: #3b3f45;
+   color: #fff;
+   font-family: Arial, Helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 14px;
+   line-height: 24px;
+   border: 25px solid #fff;
+   height: min-content;  
+    
+}
+.cotainer {
+    max-width: 1140%;
+    width: 90%;
+    margin: 0 auto;      
+}
+header {
+    color: #ea7e7f;
+    background-color: #4a4f56;
+    text-align: center;
+    padding: 50px 0 25px;
+    font-size: 18px;       
+}
+header p{
+    padding: 15px 0 0 7px;
+    font-size: 24px;
+}
+
+.shopping {
+    width: 40%;
+    margin: auto;
+}
+.shopping {
+    border: 1px solid #4a4f56 ;
+    width: 800px;
+    margin: 35px auto;
+}
+footer {
+    padding: 0 0 280px;
+}
+
+.shopping li {
+    background-color: #88839e;
+    font-size: 25px;
+    padding: 16px;
+    list-style: none;  
+
+}
+
+#list_shopping li span {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+ul li:nth-child(2n+1){
+    background-color: #7a7593;
+}
+
+
+.shopping ul li:hover {
+    background-color: #625e77;
+    border-left: none;
+    border-right: none;
+    outline:0.1px solid #fff;  
+
+}
+input[type=checkbox] {
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;   
+   
+}
+
+#list_shopping [type="checkbox"]:checked + span {
+	text-decoration: line-through;
+	color: #a3a0b5;
+}
+
+#list_shopping [type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: #a3a0b5;
+    }
+
+.cotainer ul li {
+    border: 1px solid;
+}
+
+li:active {
+    text-decoration: line-through;    
+    
+    
+}
+   ul + small {
+       color: tomato;      
+       
+   }
+   .text_ap{
+       padding: 23px 0 25px;
+       margin: 0 auto;
+       text-align: center;
+       background-color:#4a4f56;
+       width: 800px ;
+       font-size: 25px;
+       color: #ea7e7f;
+   }
+  
+
+#list_shopping small:before {
+	content: '(';
+}
+#list_shopping small:after {
+	content: ')';
+}
+
+#list_shopping li:active{
+    background: #ea7e7f;
+}
+#liis_shopping {
+    border: transparent;
+}
+#list_shopping li span {
+    font-size: 25px;
+}
+#list_shopping li span small {
+    font-size: 15px;
+}
+
+   
+    
+   
